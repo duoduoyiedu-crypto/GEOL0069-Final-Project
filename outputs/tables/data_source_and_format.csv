@@ -1,0 +1,6 @@
+item,value,notes
+dataset_name,EuroSAT_RGB,RGB version of the EuroSAT Sentinel-2 benchmark
+raw_archive,data/raw/EuroSAT_RGB.zip,Original downloaded archive
+raw_image_root,data/raw/EuroSAT_RGB,Extracted class folders
+analysis_subset,600 images per class,Balanced subset for controlled local experiments
+gpu_runtime_status,CUDA-enabled for CNN and ViT,torch 1.13.1+cu116 / torchvision 0.14.1+cu116

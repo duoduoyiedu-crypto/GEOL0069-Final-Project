@@ -1,0 +1,11 @@
+class_name,sample_count
+AnnualCrop,600
+Forest,600
+HerbaceousVegetation,600
+Highway,600
+Industrial,600
+Pasture,600
+PermanentCrop,600
+Residential,600
+River,600
+SeaLake,600

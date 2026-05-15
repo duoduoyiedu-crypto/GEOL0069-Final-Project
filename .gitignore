@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+data/**/*
+!data/raw/
+!data/raw/EuroSAT_RGB.zip
+ppt/

@@ -1,0 +1,12 @@
+metric,value
+total_samples,6000
+num_classes,10
+samples_per_class_limit,600
+rf_stats_image_size,32
+rf_hist_bins,16
+cnn_image_size,224
+vit_image_size,224
+cnn_epochs,10
+vit_epochs,12
+cnn_batch_size,32
+vit_batch_size,8

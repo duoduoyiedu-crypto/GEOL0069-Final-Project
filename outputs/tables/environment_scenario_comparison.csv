@@ -1,0 +1,4 @@
+method,runtime_seconds,carbon_kgco2e,device,average_power_watts,pue,carbon_intensity_gco2_per_kwh
+RandomForest,5.062201716005802,7.213637445308268e-05,cpu,90.0,1.2,475.0
+CNN,549.2472646380011,0.0078267735210915,cuda,90.0,1.2,475.0
+ViT,1137.7905176839995,0.0162135148769969,cuda,90.0,1.2,475.0

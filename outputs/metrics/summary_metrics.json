@@ -1,0 +1,49 @@
+{
+  "dataset": "EuroSAT_RGB balanced subset",
+  "total_samples": 6000,
+  "classes": [
+    "AnnualCrop",
+    "Forest",
+    "HerbaceousVegetation",
+    "Highway",
+    "Industrial",
+    "Pasture",
+    "PermanentCrop",
+    "Residential",
+    "River",
+    "SeaLake"
+  ],
+  "class_limit": 600,
+  "best_accuracy": 0.9733333333333334,
+  "best_method": "ViT",
+  "total_estimated_carbon_kgco2e": 0.024112424772541483,
+  "methods": [
+    {
+      "method": "RandomForest",
+      "accuracy": 0.7611111111111111,
+      "macro_f1": 0.7555600276880254,
+      "weighted_f1": 0.7555600276880255,
+      "runtime_seconds": 5.062201716005802,
+      "carbon_kgco2e": 7.213637445308268e-05,
+      "device": "cpu"
+    },
+    {
+      "method": "CNN",
+      "accuracy": 0.9611111111111112,
+      "macro_f1": 0.9610157295781002,
+      "weighted_f1": 0.9610157295781004,
+      "runtime_seconds": 549.2472646380011,
+      "carbon_kgco2e": 0.0078267735210915,
+      "device": "cuda"
+    },
+    {
+      "method": "ViT",
+      "accuracy": 0.9733333333333334,
+      "macro_f1": 0.973298429124548,
+      "weighted_f1": 0.973298429124548,
+      "runtime_seconds": 1137.7905176839995,
+      "carbon_kgco2e": 0.0162135148769969,
+      "device": "cuda"
+    }
+  ]
+}
